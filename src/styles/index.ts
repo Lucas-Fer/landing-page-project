@@ -13,8 +13,11 @@ export const {
   theme: {
     colors: {
       white: '#FFF',
+
       primaryBlue: '#2c83fb',
       secondaryBlue: '#1f76f0',
+
+      gray900: '#121214',
     },
 
     fontSizes: {
