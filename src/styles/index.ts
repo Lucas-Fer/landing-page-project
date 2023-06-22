@@ -1,4 +1,4 @@
-import { createStitches } from "@stitches/react";
+import { createStitches } from '@stitches/react'
 
 export const {
   config,
@@ -13,6 +13,8 @@ export const {
   theme: {
     colors: {
       white: '#FFF',
+      primaryBlue: '#2c83fb',
+      secondaryBlue: '#1f76f0',
     },
 
     fontSizes: {
@@ -20,6 +22,6 @@ export const {
       lg: '1.25rem',
       xl: '1.5rem',
       '2xl': '2rem',
-    }
-  }
+    },
+  },
 })
