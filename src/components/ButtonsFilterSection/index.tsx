@@ -7,7 +7,7 @@ import {
   SelectSection,
 } from './styles'
 
-export default function ButtonsFilterSection() {
+export function ButtonsFilterSection() {
   const [activeButton, setActiveButton] = useState<number>(0)
 
   function handlerActiveButton(btnId: number): void {
