@@ -3,6 +3,7 @@ import {
   ButtonsSection,
   ComponentSection,
   CustomButton,
+  CustomSelect,
   SelectSection,
 } from './styles'
 
@@ -50,12 +51,10 @@ export default function ButtonsFilterSection() {
 
       <SelectSection>
         <span>Ordenar por</span>
-        <select name="" id="">
+        <CustomSelect name="" id="">
           <option value="date">Data de Publicação</option>
-        </select>
+        </CustomSelect>
       </SelectSection>
-
-      <hr />
     </ComponentSection>
   )
 }
