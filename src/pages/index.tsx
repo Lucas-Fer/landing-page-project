@@ -14,7 +14,6 @@ export default function Home() {
         <hr />
       </HomeContainer>
       <LeadsterInfo />
-
       <Footer />
     </>
   )

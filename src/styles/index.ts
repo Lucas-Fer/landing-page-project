@@ -19,6 +19,7 @@ export const {
 
       primaryBlue: '#2c83fb',
       secondaryBlue: '#1f76f0',
+      quartenaryBlue: '#0d6efd',
       terciaryBlue: '#D8EBFB',
     },
 
@@ -41,6 +42,7 @@ export const {
     fontWeights: {
       regular: '400',
       medium: '500',
+      semiBold: '600',
       bold: '700',
     },
   },
