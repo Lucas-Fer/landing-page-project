@@ -63,4 +63,5 @@ export const CustomSelect = styled('select', {
   borderRadius: '8px',
 
   marginRight: '1rem',
+  height: '30px',
 })

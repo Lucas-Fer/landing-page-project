@@ -4,6 +4,6 @@ export const HomeContainer = styled('main', {
   display: 'flex',
   flexDirection: 'column',
 
-  width: '60%',
+  width: '50%',
   margin: '0 auto',
 })

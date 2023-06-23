@@ -7,6 +7,8 @@ export default function Home() {
     <HomeContainer>
       <ButtonsFilterSection />
       <hr />
+      <h1>Main Content</h1>
+      <hr />
     </HomeContainer>
   )
 }
