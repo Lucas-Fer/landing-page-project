@@ -79,7 +79,7 @@ export const CustomH1 = styled('h1', {
         display: 'inline-block',
         margin: '0 auto',
 
-        color: '$primaryBlue',
+        color: '$secondaryBlue',
         fontSize: '$6xl',
         position: 'relative',
       },
