@@ -7,5 +7,4 @@ export const HomeContainer = styled('main', {
   border: '1px solid black',
   width: '60%',
   margin: '0 auto',
-  padding: '1rem',
 })
