@@ -13,7 +13,9 @@ export const {
   theme: {
     colors: {
       white: '#FFF',
+
       gray900: '#121214',
+      gray100: '#677294',
 
       primaryBlue: '#2c83fb',
       secondaryBlue: '#1f76f0',
