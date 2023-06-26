@@ -1,37 +1,10 @@
+import { LeadsterVideo } from '@/interfaces/LeadsterVideo'
 import React from 'react'
-import CardItem from './components/CardItem'
-import { GetStaticProps } from 'next'
 
-export default function LeadsterGuides(props) {
-  console.log('dataProps', props)
-
-  const cardArray = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+export default function LeadsterGuides({ leadsterVideo }: LeadsterVideo) {
   return (
     <div>
-      {cardArray.map((card) => {
-        return <CardItem key={card} />
-      })}
-      )
+      <h1>AAAAAA</h1>
     </div>
   )
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  try {
-    const response = await fetch('api/youtube')
-    const data = await response.json()
-
-    return {
-      props: {
-        data,
-      },
-    }
-  } catch (error) {
-    return {
-      props: {
-        data: [],
-        error,
-      },
-    }
-  }
 }

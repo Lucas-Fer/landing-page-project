@@ -7,13 +7,13 @@ import React from 'react'
 import { GetStaticProps } from 'next'
 import { LeadsterVideo } from '@/interfaces/LeadsterVideo'
 
-export default function Home({ videoInfo }: LeadsterVideo) {
+export default function Home({ leadsterVideo }: LeadsterVideo) {
   return (
     <>
       <HomeContainer>
         <ButtonsFilterSection />
         <hr />
-        <LeadsterGuides videoInfo={videoInfo} />
+        <LeadsterGuides leadsterVideo={leadsterVideo} />
         <hr />
       </HomeContainer>
       <LeadsterInfo />
@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
     const data = await response.json()
 
-    const videoInfo = await data.videos.map((videoData: any) => {
+    const leadsterVideo = await data.videos.map((videoData: any) => {
       return {
         videoid: videoData.id.videoId ? videoData.id.videoId : 'none',
         videoDescription: videoData.snippet.description
@@ -41,7 +41,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
     return {
       props: {
-        videoInfo,
+        leadsterVideo,
       },
     }
   } catch (error) {

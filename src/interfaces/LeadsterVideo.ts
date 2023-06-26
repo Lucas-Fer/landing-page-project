@@ -1,5 +1,5 @@
 export interface LeadsterVideo {
-  videoInfo: {
+  leadsterVideo: {
     videoid: string
     videoDescription: string
     videoTitle: string
