@@ -1,6 +1,7 @@
 import { ButtonsFilterSection } from '@/components/ButtonsFilterSection'
 import Footer from '@/components/Footer'
 import LeadsterInfo from '@/components/LeadsterInfo'
+import LeadsterGuides from '@/components/LeadsterGuides'
 import { HomeContainer } from '@/styles/pages/home'
 import React from 'react'
 
@@ -10,7 +11,7 @@ export default function Home() {
       <HomeContainer>
         <ButtonsFilterSection />
         <hr />
-        <h1>Main Content</h1>
+        <LeadsterGuides />
         <hr />
       </HomeContainer>
       <LeadsterInfo />
