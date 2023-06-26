@@ -6,17 +6,17 @@ export default async function handler(
   res: NextApiResponse,
 ) {
   const leadsterChannelID = 'UCrydTYsZKHPE_pe9NNLMeDA'
+  const { queryParam } = req.query
 
   try {
     const response = await axiosRequest.get('/search', {
       params: {
         part: 'snippet',
         channelId: leadsterChannelID,
-        maxResults: 10, // Número máximo de resultados desejados
+        maxResults: 10,
+        q: queryParam as String,
       },
     })
-
-    console.log('response 1', response.data.items)
 
     const videos = response.data.items
     res.status(200).json({ videos })
