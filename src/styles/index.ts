@@ -21,6 +21,7 @@ export const {
       secondaryBlue: '#1f76f0',
       quartenaryBlue: '#0d6efd',
       terciaryBlue: '#D8EBFB',
+      blueLink: '#00aff0',
     },
 
     fontSizes: {

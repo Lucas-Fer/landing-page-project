@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import { ComponentContainer } from './styles'
-import TableLinks from './components/TableLinks'
 
+import TableLinks from './components/TableLinks'
+import Disclaimer from './components/Disclaimer'
 export default function Footer() {
   return (
     <ComponentContainer>
@@ -15,6 +16,7 @@ export default function Footer() {
       <span>Transformando visitantes em clientes.</span>
 
       <TableLinks />
+      <Disclaimer />
     </ComponentContainer>
   )
 }
